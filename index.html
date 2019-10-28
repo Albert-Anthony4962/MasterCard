@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MasterCard Validator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="validator">
+		<h1 class="header">MasterCard Validator</h1>
+		<form id="form1">
+			<label for="cardNum">MasterCard Number:</label>
+			<input id="cardNum" name="num" type="text" placeholder="Enter a 16-digit number">
+			<!-- <button onclick="outputnum()" id="submit">Submit</button> -->
+			<input onclick="outputnum()" type="button" id="submit1" value="Submit">
+			<Input type="submit" hidden disabled>
+		</form>
+		<h2 id="valNum"></h2>
+	</div>
+
+
+
+
+	<div class="generator">
+		<h1 class="header">MasterCard Generator</h1>
+		<form id="form2">
+			<label for="cardAmount">Amount:</label>
+			<input id="cardAmount" type="text" placeholder="Enter amount to generate">
+			<input onclick="outputnum2()" type="button" id="submit2" value="Submit">
+			<Input type="submit" hidden disabled>
+		</form>
+		<select id="drop"></select>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

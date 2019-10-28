@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	background-color: lightblue;
+	font-family: Roboto, sans-serif;
+}
+
+.validator,
+.generator{
+	background-color: skyblue;
+	margin: 15px;
+	width: 50%;
+	height: 100%;
+	padding-top: 4%;
+}
+
+.header{
+	font-size: 50px;
+	font-weight: 200;
+}
+
+input[type="button"]{
+	display: block;
+	margin-left: 42%;
+	border: none;
+	outline: none;
+	font-size: 25px;
+	color: #fff;
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+	background-color: rgb(50, 123, 240);
+	transition: .5s all;
+	margin-top: 15%;
+}
+
+input[type="button"]:hover{
+	cursor: pointer;
+	transform: translateY(-10px);
+	box-shadow: 0 19px 38px rgba(0,0,0,.30), 0 15px 12px rgba(0,0,0,.22);
+}
+
+label,
+input[type="text"]{
+	font-size: 20px;
+	margin-top: 15%;
+}
+
+#valNum{
+	font-size: 80px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 8%;
+	font-weight: 500;
+}
+
+#drop{
+	margin: 10% 0 0 32%;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	width: 40%;
+	display: none;
+}
+
+#drop:hover{
+	cursor: pointer;
+}
